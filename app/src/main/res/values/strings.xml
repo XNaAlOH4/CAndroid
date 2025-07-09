@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Candroid</string>
+    <string name="nav_desc">File Explorer</string>
+    <string name="home">Home</string>
+    <string name="internal_storage">Internal Storage</string>
+    <string name="sd_card">SD Card</string>
+    <string name="more">More</string>
+    <string name="about">About</string>
+    <string name="icon">Icon</string>
+
 </resources>
