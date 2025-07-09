@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_home">
+
+        </item>
+        <item android:id="@+id/nav_internal"
+            android:title="@string/internal_storage"
+            android:icon="@drawable/ic_home">
+
+        </item>
+        <item android:id="@+id/nav_card"
+            android:title="@string/sd_card"
+            android:icon="@drawable/ic_home">
+
+        </item>
+    </group>
+    <item android:title="@string/more">
+        <menu android:id="@+id/nav_about"
+            android:title="@string/about"
+            >
+
+        </menu>
+    </item>
+</menu>

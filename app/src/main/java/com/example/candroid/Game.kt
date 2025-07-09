@@ -1,5 +1,6 @@
 package com.example.candroid
 
+import android.content.Intent
 import android.view.View
 import com.google.androidgamesdk.GameActivity
 
@@ -25,5 +26,11 @@ class Game : GameActivity() {
                 or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
                 or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                 or View.SYSTEM_UI_FLAG_FULLSCREEN)
+    }
+
+    //Currently doesn't work for some reason
+    override fun onBackPressed() {
+        super.onBackPressed()
+        startActivity(Intent(this, MainActivity::class.java))
     }
 }

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/round_square"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cell0"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_square"
+                android:text="" />
+            <TextView
+                android:id="@+id/cell1"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_square"
+                android:gravity="center"
+                android:text="" />
+            <TextView
+                android:id="@+id/cell2"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_square"
+                android:gravity="center"
+                android:text="" />
+            <TextView
+                android:id="@+id/cell3"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_square"
+                android:gravity="center"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/cell4"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_square"
+                android:gravity="center"
+                android:text="" />
+            <TextView
+                android:id="@+id/cell5"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_square"
+                android:gravity="center"
+                android:text="" />
+            <TextView
+                android:id="@+id/cell6"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_square"
+                android:gravity="center"
+                android:text="" />
+            <TextView
+                android:id="@+id/cell7"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_square"
+                android:gravity="center"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/cell8"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_square"
+                android:gravity="center"
+                android:text="" />
+            <TextView
+                android:id="@+id/cell9"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_square"
+                android:gravity="center"
+                android:text="" />
+            <TextView
+                android:id="@+id/cella"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_square"
+                android:gravity="center"
+                android:text="" />
+            <TextView
+                android:id="@+id/cellb"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_square"
+                android:gravity="center"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/cellc"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_square"
+                android:gravity="center"
+                android:text="" />
+            <TextView
+                android:id="@+id/celld"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_square"
+                android:gravity="center"
+                android:text="" />
+            <TextView
+                android:id="@+id/celle"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_square"
+                android:gravity="center"
+                android:text="" />
+            <TextView
+                android:id="@+id/cellf"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_square"
+                android:gravity="center"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="" />
+
+</FrameLayout>
